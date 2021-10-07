@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         btnCustomAdapter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, ArrayAdapterActivity.class);
+                Intent intent = new Intent(MainActivity.this, CustomAdapterActivity.class);
                 startActivity(intent);
             }
         });
